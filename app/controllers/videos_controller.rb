@@ -10,4 +10,7 @@ class VideosController < ApplicationController
 
   def show_adventure_time
   end
+
+  def show_archer
+  end
 end
