@@ -4,4 +4,7 @@ Metube::Application.routes.draw do
   get "/videos/mean_girls" => "videos#show_mean_girls"
   get "/videos/adventure_time" => "videos#show_adventure_time"
   get "/videos/archer" => "videos#show_archer"
+
+  get "/posts/longbeach" => "posts#longbeach"
+  get "/posts/austin" => "posts#austin"
 end
