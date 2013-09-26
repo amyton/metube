@@ -1,5 +1,7 @@
-<h1>Broken Royal Promise!</h1>
+<h1><%= @video[:title] %></h1>
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/QS-0C8ink7M" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/<%= @video[:youtube_id] %>" frameborder="0" allowfullscreen></iframe>
 
-<p>You can't break royal promises! Never ever never, no matter what forever!</p>
+<p><%= @video[:description] %></p>
+
+<%= link_to "Back", show_all_video_path %>
